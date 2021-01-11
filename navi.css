@@ -1,0 +1,33 @@
+
+   .navi{
+    background-color: palegreen;
+    position: fixed;
+    float: left; 
+    width: 100%; 
+    padding-right: 20px; 
+    padding-left: 25px; 
+    margin: 0, auto; 
+    text-align: center;
+    list-style: none;
+    padding-bottom: 5px;
+   }
+   .navi ul li{
+    color: #808080; 
+    padding-bottom: 2px; 
+    font-size: 1.8rem; 
+    display:inline-block; 
+    padding-right: 100px;
+   }
+   .navi li a{
+       display: inline-block;
+       color: black;
+       padding: 1px 5px;
+       text-decoration: none;
+   }
+   .navi li a:active{
+       background-color: forestgreen;
+       color: white;
+   }
+   header{
+       padding-top: 50px;
+   }
